@@ -1,9 +1,9 @@
 # Odessa Build
 
-## Date: October 27, 2022
+## Date: November 04, 2022
 
 ### Configuration: Development
 
 ### Platform: Windows
 
-### Build Version: 1.0
+### Build Version: 1.1

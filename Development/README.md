@@ -54,6 +54,7 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 - Replace the third person Unreal Robot Character with our custom draft mesh Robot Guy with draft animations.
 - Ideate and test different camera movements when switching between different characters.
 - Add controller navigation in main menu and pause menu.
+- Refine the light detection system.
 
 ***
 

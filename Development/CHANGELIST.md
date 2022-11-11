@@ -1,3 +1,3 @@
-# Build Version: 1.1
+# Build Version: 1.2
 
-## Date: November 04, 2022
+## Date: November 10, 2022

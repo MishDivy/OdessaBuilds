@@ -30,37 +30,16 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 
 ## General Controls
 
-### Keyboard
-
- ```Movement``` -> W,A,S,D
-
- ```Camera``` -> Mouse
-
- ```Switch to Mushroom Guy``` -> 2
-
- ```Switch to Robot Guy``` -> 3
-
- ```Switch to Plant Guy``` -> 1
-
- ```Toggle Main Ability``` -> Q
-
- ```Main Ability Aim```* -> Right Mouse Click
-
-### XBOX One Controller
-
- ```Movement``` -> Left Stick
-
- ```Camera``` -> Right Stick
-
- ```Switch to Mushroom Guy``` -> X
-
- ```Switch to Robot Guy``` -> B
-
- ```Switch to Plant Guy``` -> Y
-
- ```Toggle Main Ability``` -> Right Trigger
-
- ```Main Ability Aim``` -> Left Trigger
+ |            | Keyboard | XBOX One Controller |
+ |:----------:|:--------:|:-------------------:|
+ | **Movement** | W,A,S,D | Left Stick |
+ | **Camera** | Mouse | Right Stick |
+ | **Switch to Plant Guy** | 1 | Y |
+ | **Switch to Mushroom Guy** | 2 | B |
+ | **Switch to Robot Guy** | 3 | X |
+ | **Toggle Main Ability** | Q | Right Trigger |
+ | **Main Ability Aim*** | Right Mouse | Left trigger |
+ | **Pause Menu** | P or Escape | Right Special Option Button |
 
 *Controls may vary for each build. To know build specific controls, please refer to the README.md stored in the same folder as the build.
 

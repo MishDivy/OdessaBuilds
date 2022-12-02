@@ -2,6 +2,8 @@
 
 Contains builds for the Odessa Tree game
 
+### Latest Build Configuration: ``Shipping``
+
 ## Cloning using Git CLI
 
 - Install [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Git LFS](https://git-lfs.github.com/).

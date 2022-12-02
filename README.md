@@ -19,9 +19,9 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 
 ## Player Characters
 
-**```Robot Guy```** -> Red Character -> Takes away light from one area and redirects it
+**```Robot Guy```** -> White Medium Height Character -> Takes away light from one area and redirects it
 
-**```Mushroom Guy```** -> Blue Glowing Character -> Acts as a Bounce Pad
+**```Mushroom Guy```** -> White Small Height Character -> Acts as a Bounce Pad
 
 **```Plant Guy```** -> Green Character -> Pulls other characters
 
@@ -44,6 +44,14 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
  | **Pause Menu** | P or Escape | Right Special Option Button |
 
 *Controls may vary for each build. To know build specific controls, please refer to the README.md stored in the same folder as the build.
+
+## Developer Controls
+
+**Note:** Developer controls are only available for keyboard devices.
+
+ |            | Keyboard |
+ |:----------:|:--------:|
+ | **Toggle RagDoll** | T |
 
 ## Feedback
 

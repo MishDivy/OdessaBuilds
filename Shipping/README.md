@@ -16,9 +16,9 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 
 ## Player Characters
 
-**```Robot Guy```** -> Red Character -> Takes away light from one area and redirects it
+**```Robot Guy```** -> White Medium Height Character -> Takes away light from one area and redirects it
 
-**```Mushroom Guy```** -> Blue Glowing Character -> Acts as a Bounce Pad
+**```Mushroom Guy```** -> White Small Height Character -> Acts as a Bounce Pad
 
 **```Plant Guy```** -> Green Character -> Pulls other characters
 
@@ -31,27 +31,29 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 
 ## Known Issues
 
-- When switching characters while in motion or in air maintains the last state of the Character.
+- Characters sometimes clips through floor or walls in the level.
   
-  ```WIP FIX:``` Characters should turn into ragdoll when switched in mid-air. They should blend into idle animation when switched in motion on ground.
+  ```WIP FIX:``` Convert BSP to Static Meshes.
 
-- Robot Guy's Light doesn't move smoothly when moving in ability.
-
-  ```WIP FIX:``` Adding a stabalization function on the Robot light or reparenting it to a stable joint.  
+- In the Odessa Test Room (the metric room) sometimes the exterior directional light glitches through walls and can be seen from inside.
+  
+  ```WIP FIX:``` Convert BSP levels to Static Meshes
 
 - Robot Guy's ability doesn't work properly under directional light.
   
   ```WIP FIX:``` There will be two types of lights: ability triggering lights and normal lights. Directional lights won't trigger ability, once we have a more concrete way to distinguish between these two types of lights.
 
-- Incomplete Puzzle Room
+- When jumping on purple bounce pads the bounce sound gets triggered twice
   
-  ```WIP FIX:``` The puzzle room is currently under development.
+  ```WIP FIX:``` Collision and hit events are being debugged to find out the cause.
+
+- When pulling other characters while jumping doesn't keep the spline mesh attached to the plant guy.
+  
+  ```WIP FIX:``` Spline mesh system needs to go through further polishing iterations. This was just the first iteration.
 
 ## Other Planned Tasks
 
-- Add some type of basic mesh vine grabbing animation to showcase Plant Guy's ability.
-- Create Ability triggering Rectangle Lights (currently we only fully support Spot and Point Lights)
-- Replace the third person Unreal Robot Character with our custom draft mesh Robot Guy with draft animations.
+- Added IK controls to rigs of custom character for feet snapping.
 - Ideate and test different camera movements when switching between different characters.
 - Add controller navigation in main menu and pause menu.
 - Refine the light detection system.
@@ -69,6 +71,16 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
  | **Switch to Robot Guy** | 3 | X |
  | **Toggle Main Ability** | Q | Right Trigger |
  | **Pause Menu** | P or Escape | Right Special Option Button |
+
+ ***
+
+## Developer Controls
+
+**Note:** Developer controls are only available for keyboard devices.
+
+ |            | Keyboard |
+ |:----------:|:--------:|
+ | **Toggle RagDoll** | T |
 
  ***
 

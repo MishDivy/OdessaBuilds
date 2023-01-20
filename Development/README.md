@@ -6,7 +6,7 @@
 
 ### Platform: Windows
 
-### Build Version: 1.2
+### Build Version: 1.4
 
 ***
 
@@ -16,11 +16,11 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 
 ## Player Characters
 
-**```Robot Guy```** -> Red Character -> Takes away light from one area and redirects it
+**```Robot Guy```** -> Medium Height -> Takes away light from one area and redirects it
 
-**```Mushroom Guy```** -> Blue Glowing Character -> Acts as a Bounce Pad
+**```Mushroom Guy```**  -> Short Height -> Acts as a Bounce Pad
 
-**```Plant Guy```** -> Green Character -> Pulls other characters
+**```Plant Guy```** -> Tall Height -> Pulls other characters
 
 ## General Rules
 
@@ -31,30 +31,32 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 
 ## Known Issues
 
-- When switching characters while in motion or in air maintains the last state of the Character.
+- HUD appears in Main Main screen.
+
+- Mushroom does not shrink and grow reliably in and out of light. It also glitches near the edge of light.
   
-  ```WIP FIX:``` Characters should turn into ragdoll when switched in mid-air. They should blend into idle animation when switched in motion on ground.
-
-- Robot Guy's Light doesn't move smoothly when moving in ability.
-
-  ```WIP FIX:``` Adding a stabalization function on the Robot light or reparenting it to a stable joint.  
+  ```WIP FIX:``` Experimenting with double colliders on Odessa Lights.
 
 - Robot Guy's ability doesn't work properly under directional light.
   
   ```WIP FIX:``` There will be two types of lights: ability triggering lights and normal lights. Directional lights won't trigger ability, once we have a more concrete way to distinguish between these two types of lights.
 
-- Incomplete Puzzle Room
+- Platforming in puzzle room is not fun.
   
   ```WIP FIX:``` The puzzle room is currently under development.
 
+- In Ragdoll mode the characters glitches through surfaces.
+  
+  ```WIP FIX:``` We are builing a bug avoidance system for ragdoll mode.
+
 ## Other Planned Tasks
 
-- Add some type of basic mesh vine grabbing animation to showcase Plant Guy's ability.
-- Create Ability triggering Rectangle Lights (currently we only fully support Spot and Point Lights)
-- Replace the third person Unreal Robot Character with our custom draft mesh Robot Guy with draft animations.
+- Add Environment assets and lighting in the puzzle room.
+- Add a feature to combine the three characters in one character.
+- Add a compass on the HUD for finding the other two unpossesed characters anytime during the game.
 - Ideate and test different camera movements when switching between different characters.
 - Add controller navigation in main menu and pause menu.
-- Refine the light detection system.
+- Add a Dialog or hint/tips system.
 
 ***
 
@@ -70,6 +72,16 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
  | **Toggle Main Ability** | Q | Right Trigger |
  | **Pause Menu** | P or Escape | Right Special Option Button |
  | **Interact** | E | Right Bumper |
+
+ ***
+
+## Developer Controls
+
+**Note:** Developer controls are only available for keyboard devices.
+
+ |            | Keyboard |
+ |:----------:|:--------:|
+ | **Toggle RagDoll** | T |
 
  ***
 

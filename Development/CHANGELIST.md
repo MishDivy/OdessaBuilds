@@ -1,6 +1,6 @@
-# Build Version: 1.2
+# Build Version: 1.3
 
-## Date: November 10, 2022
+## Date: January 19, 2023
 
 ### Character Mechanics
 

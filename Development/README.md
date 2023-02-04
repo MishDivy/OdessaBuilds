@@ -12,7 +12,7 @@
 
 ## Running the build
 
-Double click on OdesaTest.exe to run the build. The .exe is located inside the Windows.zip compressed directory.
+Double click on OdessaTree.exe to run the build. The .exe is located inside the Windows.zip compressed directory.
 
 ## Player Characters
 
@@ -29,6 +29,22 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 3) Ignore white colored lights in the big level. They do not trigger ability. Only pink-ish and yellow-ish lights trigger abilities of the characters.
 
 ***
+
+## General Controls
+
+ |            | Keyboard | XBOX One Controller |
+ |:----------:|:--------:|:-------------------:|
+ | **Movement** | W,A,S,D | Left Stick |
+ | **Camera** | Mouse | Right Stick |
+ | **Switch to Plant Guy** | 1 | Y |
+ | **Switch to Mushroom Guy** | 2 | B |
+ | **Switch to Robot Guy** | 3 | X |
+ | **Combine** | 4 | Down D-Pad |
+ | **Toggle Main Ability** | Q | Right Trigger |
+ | **Pause Menu** | P or Escape | Right Special Option Button |
+ | **Interact** | E | Right Bumper |
+
+ ***
 
 ## Known Issues
 
@@ -66,22 +82,6 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 - Add controller vibration feedback when Robot Guy is near the edge of the light.
 
 ***
-
-## General Controls
-
- |            | Keyboard | XBOX One Controller |
- |:----------:|:--------:|:-------------------:|
- | **Movement** | W,A,S,D | Left Stick |
- | **Camera** | Mouse | Right Stick |
- | **Switch to Plant Guy** | 1 | Y |
- | **Switch to Mushroom Guy** | 2 | B |
- | **Switch to Robot Guy** | 3 | X |
- | **Combine** | 4 | Down D-Pad |
- | **Toggle Main Ability** | Q | Right Trigger |
- | **Pause Menu** | P or Escape | Right Special Option Button |
- | **Interact** | E | Right Bumper |
-
- ***
 
 ## Developer Controls
 

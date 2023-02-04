@@ -14,6 +14,7 @@
 - **Optimized Light Detection Event system**. Now players will experience constant frame rates thoughout level with any character.
 - **Added Light Edge Notification Event**. This allows us to warn the player when they are near the edge of a light.
 - **Added First Iteration of Procedural Plant Vine Mesh**. When pulling other characters with plant the player can see the new vine mesh.
+- Added ability to combine the three characters into one unit for easy traversal.
 
 ### User Interface & Persistence Management
 
@@ -21,7 +22,9 @@
 - Added settings, invert Y axis (yes for Rob), and volume controls added and working
 - Settings saved and serialized
 - Added HUD to showcase currently possessed character
-  
+- Added a compass on the top. In the future, it will showcase the location of the other two unpossesed characters.
+- Added text renderer to show hints/tips to the player in form of text on screen.
+
 ### Level Design & Implementation
 
 - Added pressure plate, doors and elevator
@@ -30,6 +33,10 @@
 - Made Demo Puzzle Room Playable
 - Added a new easier puzzle room
 - Added a spline based Gondola
+- Redesigned the puzzle area.
+- Added a mini tutorial puzzle area.
+- Added Robot Panel.
+- Added moving fan that periodically blocks light.
 
 ### Sound Effects & Music
 
@@ -47,3 +54,10 @@
 - Fixed characters moving with the Plant Character after being grabbed bug.
 - Fixed issues of characters getting pulled in the wrong direction by the plant guy.
 - Ragdoll mode doesn't get trigger on small jumps anymore.
+- Performance bug fixed: fps drop at some spots of the map when Robot is using the ability.
+- HUD doesn't show up on menu screens.
+- Fixed pressure plate not detecting change of state of mushroom.
+- Gondola now carry the attached objects properly.
+- Button cannot be pressed by unpossesed character anymore.
+- Chain bouncing on environment mushrooms is now possible.
+- Gondola rails doesn't interfere with Odessa lights.

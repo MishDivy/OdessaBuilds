@@ -26,25 +26,31 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 
 1) Robot Guy and Plant Guy cannot use ability when not in light.
 2) Mushroom Guy cannot use ability when in light.
-3) Ignore white colored lights. They do not trigger ability. Only pink-ish and yellow-ish lights trigger abilities of the characters.
+3) Ignore white colored lights in the big level. They do not trigger ability. Only pink-ish and yellow-ish lights trigger abilities of the characters.
 
 ***
 
 ## Known Issues
 
-- HUD appears in Main Main screen.
+- Ignoring white lights is annoying, and gets confusing sometimes.
 
-- Mushroom does not shrink and grow reliably in and out of light. It also glitches near the edge of light.
+  ```WIP FIX`` We are building two different types of lights, artifical (Electric bulbs, tube lights etc.) and natural lights (Glowing plants and mushrooms). Only artificial lights will trigger ability.
+
+- Some of the rooms are too dark.
+
+  ```WIP FIX:``` We are currently working on setting up lights throughout the level.
+
+- No collision on many assets.
+  
+  ```WIP FIX:``` We are working on adding relaible collisions on all of our assets.
+
+- Mushroom glitches near the edge of light.
   
   ```WIP FIX:``` Experimenting with double colliders on Odessa Lights.
 
 - Robot Guy's ability doesn't work properly under directional light.
   
   ```WIP FIX:``` There will be two types of lights: ability triggering lights and normal lights. Directional lights won't trigger ability, once we have a more concrete way to distinguish between these two types of lights.
-
-- Platforming in puzzle room is not fun.
-  
-  ```WIP FIX:``` The puzzle room is currently under development.
 
 - In Ragdoll mode the characters glitches through surfaces.
   
@@ -53,11 +59,11 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 ## Other Planned Tasks
 
 - Add Environment assets and lighting in the puzzle room.
-- Add a feature to combine the three characters in one character.
 - Add a compass on the HUD for finding the other two unpossesed characters anytime during the game.
 - Ideate and test different camera movements when switching between different characters.
 - Add controller navigation in main menu and pause menu.
-- Add a Dialog or hint/tips system.
+- Add more sound effects.
+- Add controller vibration feedback when Robot Guy is near the edge of the light.
 
 ***
 
@@ -73,6 +79,7 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
  | **Toggle Main Ability** | Q | Right Trigger |
  | **Pause Menu** | P or Escape | Right Special Option Button |
  | **Interact** | E | Right Bumper |
+ | **Combine** | 4 | Down D-Pad |
 
  ***
 
@@ -83,6 +90,7 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
  |            | Keyboard |
  |:----------:|:--------:|
  | **Toggle RagDoll** | T |
+ | **Force Combine** | Ctrl + 4 |
 
  ***
 

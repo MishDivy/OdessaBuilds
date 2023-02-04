@@ -34,7 +34,7 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 
 - Ignoring white lights is annoying, and gets confusing sometimes.
 
-  ```WIP FIX`` We are building two different types of lights, artifical (Electric bulbs, tube lights etc.) and natural lights (Glowing plants and mushrooms). Only artificial lights will trigger ability.
+  ```WIP FIX``` We are building two different types of lights, artifical (Electric bulbs, tube lights etc.) and natural lights (Glowing plants and mushrooms). Only artificial lights will trigger ability.
 
 - Some of the rooms are too dark.
 
@@ -76,10 +76,10 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
  | **Switch to Plant Guy** | 1 | Y |
  | **Switch to Mushroom Guy** | 2 | B |
  | **Switch to Robot Guy** | 3 | X |
+ | **Combine** | 4 | Down D-Pad |
  | **Toggle Main Ability** | Q | Right Trigger |
  | **Pause Menu** | P or Escape | Right Special Option Button |
  | **Interact** | E | Right Bumper |
- | **Combine** | 4 | Down D-Pad |
 
  ***
 

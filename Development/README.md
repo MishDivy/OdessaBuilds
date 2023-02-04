@@ -1,12 +1,12 @@
 # Odessa Build
 
-## Date: January 19, 2023
+## Date: February 04, 2023
 
 ### Configuration: Development
 
 ### Platform: Windows
 
-### Build Version: 1.4
+### Build Version: 1.5
 
 ***
 
@@ -26,6 +26,7 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
 
 1) Robot Guy and Plant Guy cannot use ability when not in light.
 2) Mushroom Guy cannot use ability when in light.
+3) Ignore white colored lights. They do not trigger ability. Only pink-ish and yellow-ish lights trigger abilities of the characters.
 
 ***
 

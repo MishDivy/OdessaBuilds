@@ -77,7 +77,7 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
  | **Switch to Mushroom Guy** | 2 | B |
  | **Switch to Robot Guy** | 3 | X |
  | **Combine** | 4 | Down D-Pad |
- | **Toggle Main Ability** | Q | Right Trigger |
+ | **Toggle Main Ability** | LMB | Right Trigger |
  | **Pause Menu** | P or Escape | Right Special Option Button |
  | **Interact** | E | Right Bumper |
 

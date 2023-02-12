@@ -26,7 +26,7 @@ Double click on OdessaTest.exe to run the build. The .exe is located inside the 
 
 1) Robot Guy and Plant Guy cannot use ability when not in light.
 2) Mushroom Guy cannot use ability when in light.
-3) Foliage and Natrural vegetation does not trigger abilities.
+3) Foliage and Natural vegetation does not trigger abilities.
 4) Ignore white colored lights in the big level. They do not trigger ability.
 
 ***

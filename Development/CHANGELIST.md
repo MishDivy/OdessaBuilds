@@ -44,6 +44,7 @@
 - Added footstep and landing sounds using MetaSounds
 - Added sounds when using ability or bouncing for mushroom and robot guy.
 - Added Haptic/force feedback for controllers when bouncing or pulling.
+- Added Haptic/force feedback for controllers when near the edge of the light in Robot Ability.
 
 ### Bug Fixes
 

@@ -76,11 +76,10 @@ Double click on OdessaTest.exe to run the build. The .exe is located inside the 
 ## Other Planned Tasks
 
 - Add Environment assets and lighting in the puzzle room.
-- Add a compass on the HUD for finding the other two unpossesed characters anytime during the game.
+- Change icons and compass design on the HUD for finding the other two unpossesed characters anytime during the game.
 - Ideate and test different camera movements when switching between different characters.
 - Add controller navigation in main menu and pause menu.
 - Add more sound effects.
-- Add controller vibration feedback when Robot Guy is near the edge of the light.
 
 ***
 

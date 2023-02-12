@@ -1,6 +1,6 @@
-# Build Version: 1.5
+# Build Version: 1.6
 
-## Date: February 04, 2023
+## Date: February 10, 2023
 
 ### Character Mechanics
 
@@ -37,6 +37,7 @@
 - Added a mini tutorial puzzle area.
 - Added Robot Panel.
 - Added moving fan that periodically blocks light.
+- Added glowing plants in the environment for ambient lighting.
 
 ### Sound Effects & Music
 
@@ -61,3 +62,4 @@
 - Button cannot be pressed by unpossesed character anymore.
 - Chain bouncing on environment mushrooms is now possible.
 - Gondola rails doesn't interfere with Odessa lights.
+- Fixed Pause menu appearing on top of itself bug.

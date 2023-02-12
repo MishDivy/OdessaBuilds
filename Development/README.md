@@ -1,18 +1,18 @@
 # Odessa Build
 
-## Date: February 04, 2023
+## Date: February 10, 2023
 
 ### Configuration: Development
 
 ### Platform: Windows
 
-### Build Version: 1.5
+### Build Version: 1.6
 
 ***
 
 ## Running the build
 
-Double click on OdessaTree.exe to run the build. The .exe is located inside the Windows.zip compressed directory.
+Double click on OdessaTest.exe to run the build. The .exe is located inside the Windows.zip compressed directory.
 
 ## Player Characters
 
@@ -26,7 +26,8 @@ Double click on OdessaTree.exe to run the build. The .exe is located inside the 
 
 1) Robot Guy and Plant Guy cannot use ability when not in light.
 2) Mushroom Guy cannot use ability when in light.
-3) Ignore white colored lights in the big level. They do not trigger ability. Only pink-ish and yellow-ish lights trigger abilities of the characters.
+3) Foliage and Natrural vegetation does not trigger abilities.
+4) Ignore white colored lights in the big level. They do not trigger ability.
 
 ***
 
@@ -40,7 +41,7 @@ Double click on OdessaTree.exe to run the build. The .exe is located inside the 
  | **Switch to Mushroom Guy** | 2 | B |
  | **Switch to Robot Guy** | 3 | X |
  | **Combine** | 4 | Down D-Pad |
- | **Toggle Main Ability** | Q | Right Trigger |
+ | **Toggle Main Ability** | Mouse Left Click | Right Trigger |
  | **Pause Menu** | P or Escape | Right Special Option Button |
  | **Interact** | E | Right Bumper |
 

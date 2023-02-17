@@ -2,7 +2,7 @@
 
 Contains builds for the Odessa Tree game
 
-### Latest Build Configuration: ``Shipping``
+### Latest Build Configuration: ``Development``
 
 ## Cloning using Git CLI
 
@@ -16,6 +16,12 @@ Contains builds for the Odessa Tree game
 ## Running the build
 
 Double click on OdesaTest.exe to run the build. The .exe is located inside the Windows.zip compressed directory.
+
+## Survey
+
+After playing the build, please fill out this [survey form](https://drexel.qualtrics.com/jfe/form/SV_3UG2s1qiRmoEFMO).
+
+We value your feedback and make crucial decisions based on it.
 
 ## Player Characters
 
@@ -39,11 +45,14 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
  | **Switch to Plant Guy** | 1 | Y |
  | **Switch to Mushroom Guy** | 2 | B |
  | **Switch to Robot Guy** | 3 | X |
- | **Toggle Main Ability** | Q | Right Trigger |
- | **Main Ability Aim*** | Right Mouse | Left trigger |
+ | **Combine** | 4 | Down D-Pad |
+ | **Toggle Main Ability** | Mouse Left Click | Right Trigger |
  | **Pause Menu** | P or Escape | Right Special Option Button |
+ | **Interact** | E | Right Bumper |
 
 *Controls may vary for each build. To know build specific controls, please refer to the README.md stored in the same folder as the build.
+
+ ***
 
 ## Developer Controls
 
@@ -52,6 +61,9 @@ Double click on OdesaTest.exe to run the build. The .exe is located inside the W
  |            | Keyboard |
  |:----------:|:--------:|
  | **Toggle RagDoll** | T |
+ | **Force Combine** | Ctrl + 4 |
+
+ ***
 
 ## Feedback
 

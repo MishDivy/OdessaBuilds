@@ -14,6 +14,12 @@
 
 Double click on OdessaTest.exe to run the build. The .exe is located inside the Windows.zip compressed directory.
 
+## Survey
+
+After playing the build, please fill out this [survey form](https://drexel.qualtrics.com/jfe/form/SV_3UG2s1qiRmoEFMO).
+
+We value your feedback and make crucial decisions based on it.
+
 ## Player Characters
 
 **```Robot Guy```** -> Medium Height -> Takes away light from one area and redirects it

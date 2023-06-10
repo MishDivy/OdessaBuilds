@@ -23,6 +23,22 @@ After playing the build, please fill out this [survey form](https://drexel.qualt
 
 We value your feedback and make crucial decisions based on it.
 
+## Minimum Specs
+GPU: AMD Radeon RX 580 / Nvidia GeForce GTX 1070
+VRAM: 6GB
+CPU: AMD Ryzen 5 1600 / Intel Core i5-8400
+RAM: 16GB
+OS: Windows 10
+Storage: 12GB
+
+## Recommended Specs
+GPU: AMD Radeon RX 5700 / Nvidia GeForce RTX 2080 / Intel Arc
+VRAM: 8GB
+CPU: AMD Ryzen 7 2700X / Intel Core i7-9700K
+RAM: 16GB
+OS: Windows 10
+Storage: 12GB
+
 ## Player Characters
 
 **```Robot Guy```** -> White Medium Height Character -> Takes away light from one area and redirects it
@@ -42,9 +58,9 @@ We value your feedback and make crucial decisions based on it.
  |:----------:|:--------:|:-------------------:|
  | **Movement** | W,A,S,D | Left Stick |
  | **Camera** | Mouse | Right Stick |
- | **Switch to Plant Guy** | 1 | Y |
- | **Switch to Mushroom Guy** | 2 | B |
- | **Switch to Robot Guy** | 3 | X |
+ | **Switch to Robot Guy** | 1 | X |
+ | **Switch to Mushroom Guy** | 2 | Y |
+ | **Switch to Plant Guy** | 3 | B | 
  | **Combine** | 4 | Down D-Pad |
  | **Toggle Main Ability** | Mouse Left Click | Right Trigger |
  | **Pause Menu** | P or Escape | Right Special Option Button |
@@ -62,6 +78,7 @@ We value your feedback and make crucial decisions based on it.
  |:----------:|:--------:|
  | **Toggle RagDoll** | T |
  | **Force Combine** | Ctrl + 4 |
+ | **30 Second Rewind | Ctrl + Z |
 
  ***
 
